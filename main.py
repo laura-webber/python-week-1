@@ -23,3 +23,6 @@ def days_to_units_message(num_of_days, message):
 
 
 days_to_units_message(20, 'hi there')
+
+greeting = input('hi Laura, enter a greeting\n')
+print(greeting)

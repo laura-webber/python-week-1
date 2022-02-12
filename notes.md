@@ -68,3 +68,10 @@ def days_to_units_message(num_of_days, message):
 Scope
 - global variable - variables available from within any scope
 - local variable - variables created within a function and only available there
+
+User Input
+`input()`
+- Built-in function to ask user for input
+- Input with prompt
+
+`input('hi Laura, enter a greeting\n')`
