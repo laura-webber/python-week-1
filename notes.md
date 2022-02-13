@@ -119,3 +119,21 @@ def the_function():
 `if user_input.isdigit():`
 
 Nested if/else
+
+Try/Except
+```python
+def validate_and_execute():
+    user_input = input("please enter a number: ")
+    try:
+        user_input_number = int(user_input)
+        if user_input_number > 0:
+            calculated_value = user_input_number * 2
+            print(calculated_value)
+        elif user_input_number == 0:
+            print("you entered a 0. please enter a valid number")
+        else:
+            print("you entered a negative number. no bueno")
+    except:
+        print("your input is not a valid number")
+```
+While Loop
