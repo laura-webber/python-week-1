@@ -137,3 +137,37 @@ def validate_and_execute():
         print("your input is not a valid number")
 ```
 While Loop
+
+```python
+user_input = ""
+while user_input != "exit":
+     user_input = input("please enter a comma separated list of numbers: ")
+     for num_of_days in user_input.split(", "):
+         validate_and_execute(user_input)
+```
+
+Lists (Arrays)
+
+```python
+my_list = ['January', 'February', 'March']
+print(my_list)
+print(my_list.append('April'))
+print(my_list)
+print(my_list[3])
+```
+
+Comments
+- done with # sign in Python for one line
+- multiline comments:
+  - """ at beginning and end """
+
+Set
+- basically a list but with no duplicates
+`set()` function can turn a list into a set
+```python
+num_list = [20, 30, 40, 20, 50, 30]
+set_list = set(num_list)
+print(set_list)
+```
+output
+`{40, 50, 20, 30}`

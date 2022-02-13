@@ -50,3 +50,13 @@
 #     user_input = input("please enter a comma separated list of numbers: ")
 #     for num_of_days in user_input.split(", "):
 #         validate_and_execute(user_input)
+
+# my_list = ['January', 'February', 'March']
+# print(my_list)
+# print(my_list.append('April'))
+# print(my_list)
+# print(my_list[3])
+
+num_list = [20, 30, 40, 20, 50, 30]
+set_list = set(num_list)
+print(set_list)
