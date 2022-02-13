@@ -163,7 +163,8 @@ Comments
 
 Set
 - basically a list but with no duplicates
-`set()` function can turn a list into a set
+- elements in sets are immutable - can only add or delete elements
+- `set()` function can turn a list into a set
 ```python
 num_list = [20, 30, 40, 20, 50, 30]
 set_list = set(num_list)
