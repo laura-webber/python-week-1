@@ -19,7 +19,10 @@ days_to_units(20)
 
 
 def days_to_units_message(num_of_days, message):
-    print(f'Function with message output: {num_of_days} days are {to_seconds} {name_of_unit}, {message}')
+    if num_of_days > 0:
+        print(f'Function with message output: {num_of_days} days are {to_seconds} {name_of_unit}, {message}')
+    else:
+        return "you entered a negative value"
 
 
 days_to_units_message(20, 'hi there')

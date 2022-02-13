@@ -75,3 +75,47 @@ User Input
 - Input with prompt
 
 `input('hi Laura, enter a greeting\n')`
+
+Functions with return values
+
+```python
+def days_to_units_message(num_of_days, message):
+    return f'Function with message output: {num_of_days} days are {to_seconds} {name_of_unit}, {message}'
+```
+
+`input()` always treated as a string, so won't do math correctly automatically
+
+- casting `int(user_input)`
+
+```python
+user_input = input('enter a number of days you want to use for the formula')
+user_input_number = int(user_input)
+
+days_to_units(user_input_number)
+```
+
+Conditionals
+- use for input validation
+```python
+def days_to_units_message(num_of_days, message):
+    if num_of_days > 0:
+        print(f'Function with message output: {num_of_days} days are {to_seconds} {name_of_unit}, {message}')
+    else:
+        return 'you entered a negative value'
+```
+
+Booleans
+- `True` or `False` (capitalized)
+```python
+def the_function():
+    if int(user_input) > 0:
+        return 'something'
+    elif int(user_input) < 0:
+        return 'someting else'
+    else:
+        return 'nothing'
+```
+- check if something is a number:
+`if user_input.isdigit():`
+
+Nested if/else
