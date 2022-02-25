@@ -67,3 +67,10 @@ print(word + another_word)
 
 # STRETCH: What’s another way to concatenate two strings in Python 3.7
 # Hint: Perform an internet search for "Python3 concatenate strings"
+
+print("Sammy" * 2)
+
+# also
+myTuple = ("John", "Peter", "Vicky")
+x = " ".join(myTuple)
+print(x)
